@@ -56,12 +56,12 @@ return (
         value={user.email} 
         onChange={(e) => setUser({...user, email: e.target.value})}
         placeholder="email" />
-        <button 
-  onClick={onLogin}
-  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
->
-  Login here
-</button>
+        <button
+          onClick={onLogin}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Login here
+        </button>
         <Link href="/signup" className="text-blue-500 hover:text-blue-700 mt-4">
             Don't have an account? Signup here
         </Link>
